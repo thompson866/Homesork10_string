@@ -15,16 +15,18 @@ public class Main {
         //task 2 test
         //System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fulltName.toUpperCase());
     }
+
     public static void task2() {
         String fulltName = "Ivanov Ivan Ivanovich";
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fulltName.toUpperCase());
 
 
     }
+
     public static void task3() {
         String fulltName = "Иванов Семён Семёнович";
         fulltName = fulltName.replace("ё", "е");
-        System.out.println("Данные ФИО сотрудника — " + fulltName  );
+        System.out.println("Данные ФИО сотрудника — " + fulltName);
 
 
     }
